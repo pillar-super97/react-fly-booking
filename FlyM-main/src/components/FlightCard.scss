@@ -1,0 +1,47 @@
+$blue-900: #03045e;
+$blue-800: #023e8a;
+$blue-700: #0077b6;
+$blue-600: #0096c7;
+$blue-500: #00b4d8;
+$blue-400: #48cae4;
+$blue-300: #90e0ef;
+$blue-200: #ade8f4;
+$blue-100: #caf0f8;
+.flight-card {
+    background-color: $blue-800;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 93px;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 0 30px;
+    color: $blue-100;
+    .airline {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    .arrival {
+        font-size: 25px;
+    }
+    .duration {
+        font-size: 25px;
+    }
+    .price {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .airline-image {
+      
+            width: 53px;
+            height: 53px;
+            border-radius: 50%;
+    }
+
+    .duration-type {
+        display: grid;
+    }
+}
